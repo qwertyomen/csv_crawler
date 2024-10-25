@@ -5,7 +5,7 @@
 #Notes: Make sure you sanitize your CSV if you're pulling it from Excel or Google.
 #Tool: dos2unix is super helpful for that.
 
-#Provide your CSV Data Source
+#Provide your CSV Data Source. Remove headers and make sure it ends in a new line.
 csv_source=sample.csv
 
 #Import Columns, apply a varible name to each column, and use those variable names
@@ -16,6 +16,6 @@ do
     var3="${column_c}"
 
 #Debug
-    echo $var1 $var2 $var3
+    echo "$var1 $var2 $var3"
 
 done < $csv_source
