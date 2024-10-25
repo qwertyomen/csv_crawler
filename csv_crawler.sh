@@ -5,7 +5,7 @@
 #Notes: Make sure you sanitize your CSV if you're pulling it from Excel or Google.
 #Tool: dos2unix is super helpful for that.
 
-#CSV Data Source
+#Provide your CSV Data Source
 csv_source=sample.csv
 
 #Import Columns, apply a varible name to each column, and use those variable names
