@@ -1,5 +1,5 @@
 # csv_crawler
-Uses IFS to crawls through CSV rows and turn the columns into scriptable variables.
+Uses IFS to crawl through CSV rows and turn the columns into scriptable variables.
 I use this as a reminder on how to effectively use IFS.
 
 Mildly annoying learning moments:
